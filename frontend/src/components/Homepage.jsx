@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Homepage.css";
+import { Link } from "react-router-dom";
 
 function Homepage() {
   return (
@@ -27,8 +28,9 @@ function Homepage() {
           <br></br>
           <span>it's community</span>
         </h2>
-
-        <button>PLAY WITH US</button>
+        <Link to="/joinus">
+          <button>PLAY WITH US</button>
+        </Link>
       </div>
     </div>
   );

@@ -14,11 +14,12 @@ footer {
     font-size: 40px;
 }
 
-.socials-icon {
+.footer-icon {
     cursor: pointer;
+    color: black;
 }
 
-.socials-icon:hover {
+.footer-icon:hover {
     scale: 1.2;
 }
 
