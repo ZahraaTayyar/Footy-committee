@@ -1,6 +1,6 @@
 import "./App.css";
 import Footer from "./components/Footer";
-import Home from "./components/Home";
+// import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import JoinUs from "./components/JoinUs"
 

@@ -14,6 +14,7 @@ function Navbar() {
 
       <div className="nav-right">
         <ul className="nav-list">
+          <li className="nav-list-item">Home</li>
           <li className="nav-list-item">Join Us</li>
           <li className="nav-list-item">Volunteer</li>
           <li className="nav-list-item">Contact Us</li>

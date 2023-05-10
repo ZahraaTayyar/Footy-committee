@@ -21,3 +21,13 @@ footer {
 .socials-icon:hover {
     scale: 1.2;
 }
+
+@media only screen and (max-width: 400px) {
+    footer {
+        gap: 20px;
+    }
+
+    footer h3 {
+        font-size: 17px;
+    }
+}

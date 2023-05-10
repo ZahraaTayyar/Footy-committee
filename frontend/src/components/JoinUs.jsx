@@ -5,7 +5,16 @@ import PlayerCard from './PlayerCard';
 function JoinUs() {
   return (
     <div className="join-us">
-      <h1>Join our football team and play with us!</h1>
+      <div className="join-us-text-container">
+        <h1>Join our football team and play with us!</h1>
+        <p>
+          How it works: Please sign up by clicking on the "join" button and
+          filling in the form. We will then get in contact and let you know if
+          we have spaces for the week or not
+        </p>
+        <button>JOIN</button>
+        <p>Next game is on Friday 10th April!</p>
+      </div>
       <div className="player-cards-container">
         <PlayerCard />
         <PlayerCard />

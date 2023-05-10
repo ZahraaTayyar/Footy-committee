@@ -1,17 +1,74 @@
 .join-us {
     background-color: #120d23;
     color: white;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-h1 {
+.join-us h1 {
     font-size: 30px;
 }
 
+.join-us-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1000px;
+}
+
+.join-us-text-container button {
+  color: white;
+  padding: 1rem 2rem;
+  margin: 20px 0;
+  border: none;
+  border-radius: 20px;
+  background-color: #120d23;
+  border: #ac261d solid 1px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: 2px 2px 15px #06040d;
+}
+
+.join-us-text-container button:hover {
+  border-right: #ac261d solid 2px;
+  border-left: #ac261d solid 2px;
+  background-color: #17112d;
+  scale: 1.05;
+}
+
 .player-cards-container {
+    margin: 50px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 3rem;
     max-width: 1500px;
+}
+
+@media only screen and (max-width: 400px) {
+    .join-us p {
+        font-size: 14px;
+    }
+
+    .join-us h1 {
+        font-size: 25px;
+    }
+
+    .join-us-text-container button {
+        scale: 0.9;
+    }
+
+    .player-cards-container {
+        padding-top: 30px;
+        gap: 1rem;
+        margin: 0;
+    }
 }

@@ -1,9 +1,39 @@
 .player-card {
-    
+    border: solid white 0.5px;
+    border-radius: 20px;
+    padding: 10px;
+    height: 275px;
+    width: 225px;
 }
 
 .player-card img {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     object-fit: cover;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+  .player-card {
+    height: 225px;
+    width: 175px
+  }
+  .player-card img {
+    height: 150px;
+    width: 150px
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .player-card {
+    height: 160px;
+    width: 125px;
+  }
+  .player-card p {
+    font-size: 14px;
+  }
+  .player-card img {
+    height: 100px;
+    width: 100px
+  }
 }
