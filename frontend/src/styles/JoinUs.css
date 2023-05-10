@@ -52,7 +52,7 @@
     max-width: 1500px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
     .join-us p {
         font-size: 14px;
     }

@@ -24,7 +24,7 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .player-card {
     height: 160px;
     width: 125px;

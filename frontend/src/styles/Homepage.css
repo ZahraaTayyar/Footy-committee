@@ -117,7 +117,7 @@ h2 span:nth-child(3) {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .home-text {
     scale: 0.6;
     position: relative;
