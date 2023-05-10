@@ -5,8 +5,10 @@ function Navbar() {
   return (
     <nav className="nav-container">
       <div className="nav-logo">
-        F<i className="logo-ball fa-solid fa-earth-americas"></i>
-        <i className="logo-ball fa-solid fa-earth-americas"></i>TY
+        <span>
+          F<i className="logo-ball fa-solid fa-earth-americas"></i>
+          <i className="logo-ball fa-solid fa-earth-americas"></i>TY
+        </span>
         <span> COMMITTEE</span>
       </div>
 

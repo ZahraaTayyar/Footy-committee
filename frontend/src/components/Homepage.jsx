@@ -28,6 +28,8 @@ function Homepage() {
           <br></br>
           <span>it's community</span>
         </h2>
+
+        <button>PLAY WITH US</button>
       </div>
     </div>
   );
