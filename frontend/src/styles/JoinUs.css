@@ -1,3 +1,17 @@
+.join-us {
+    background-color: #120d23;
+    color: white;
+}
+
 h1 {
     font-size: 30px;
+}
+
+.player-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    max-width: 1500px;
 }
