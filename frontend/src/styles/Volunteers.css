@@ -1,0 +1,129 @@
+.volunteers {
+    display: flex;
+    width: 100%;
+    height: 95vh;
+    background-color: #120d23;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.volunteers-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    height: 100%;
+    /* border: solid yellow 1px; */
+}
+
+.volunteers-left p {
+    max-width: 600px;
+}
+
+.form-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+    width: 100%;
+}
+
+form input, select, textarea {
+    /* max-width: 600px; */
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+textarea {
+    height: 200px;
+}
+
+form input:hover, input:focus, textarea:hover, textarea:focus {
+    outline: none;
+    scale: 1.05;
+}
+
+form button {
+    color: white;
+    width: 200px;
+    padding: 1rem 2rem;
+    margin: 20px 0;
+    border-radius: 20px;
+    background-color: #120d23;
+    border: #ac261d solid 1px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 2px 2px 15px #06040d;
+}
+
+form button:hover {
+    border-right: #ac261d solid 2px;
+    border-left: #ac261d solid 2px;
+    background-color: #17112d;
+    scale: 1.05;
+}
+
+.volunteers-right {
+    width: 50%;
+}
+
+.volunteers-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 1000px) {
+    .volunteers {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .volunteers-left {
+        width: 100%;
+    }
+
+    .volunteers-right {
+        width: 100%;
+    }
+
+    .form-container {
+    width: 90%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .volunteers {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .volunteers-left {
+        width: 100%;
+    }
+
+    .volunteers-right {
+        width: 100%;
+    }
+
+    .form-container {
+    width: 100%;
+    }
+}

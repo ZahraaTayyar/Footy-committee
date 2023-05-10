@@ -23,17 +23,17 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-list-item">
-            <Link to="/joinus" className="link">
+            <Link to="/join" className="link">
               Join Us
             </Link>
           </li>
           <li className="nav-list-item">
-            <Link to="/" className="link">
+            <Link to="/volunteer" className="link">
               Volunteer
             </Link>
           </li>
           <li className="nav-list-item">
-            <Link to="/" className="link">
+            <Link to="/contactus" className="link">
               Contact Us
             </Link>
           </li>

@@ -28,7 +28,7 @@ function Homepage() {
           <br></br>
           <span>it's community</span>
         </h2>
-        <Link to="/joinus">
+        <Link to="/join">
           <button>PLAY WITH US</button>
         </Link>
       </div>
