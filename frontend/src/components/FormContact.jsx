@@ -17,7 +17,10 @@ function FormContact() {
 
   return (
     <form onSubmit={handleSubmit} className="contact-form">
-      <h2>Send us a message</h2>
+      <h2>
+        Send us a message
+        <hr />
+      </h2>
 
       <label htmlFor="name">Name:</label>
       <input
@@ -30,7 +33,7 @@ function FormContact() {
         required
       ></input>
 
-      <label htmlFor='email'>Email:</label>
+      <label htmlFor="email">Email:</label>
       <input
         type="email"
         id="email"
@@ -41,7 +44,7 @@ function FormContact() {
         required
       />
 
-      <label htmlFor='message'>Message:</label>
+      <label htmlFor="message">Message:</label>
       <textarea
         id="message"
         name="message"
@@ -51,7 +54,9 @@ function FormContact() {
         required
       ></textarea>
 
-      <button type='submit' className="contact-submit-btn">Submit</button>
+      <button type="submit" className="contact-submit-btn">
+        Submit
+      </button>
     </form>
   );
 }

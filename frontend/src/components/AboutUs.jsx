@@ -1,5 +1,27 @@
 import React from "react";
 import "../styles/AboutUs.css";
+import Gallery from "./Gallery";
+
+const galleryImages = [
+  {
+    img: "images/gallery1.jpg",
+  },
+  {
+    img: "images/gallery2.jpg",
+  },
+  {
+    img: "images/gallery3.jpg",
+  },
+  {
+    img: "images/gallery4.jpg",
+  },
+  {
+    img: "images/gallery5.jpg",
+  },
+  {
+    img: "images/gallery6.jpg",
+  },
+];
 
 function AboutUs() {
   return (
@@ -14,8 +36,9 @@ function AboutUs() {
         </p>
       </div>
 
-      <div className="cards-container">
+      <Gallery galleryImages={galleryImages} />
 
+      <div className="cards-container">
         <div className="card" id="joincard">
           <img
             src={process.env.PUBLIC_URL + "/images/donate.png"}
