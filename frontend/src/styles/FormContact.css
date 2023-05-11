@@ -36,6 +36,7 @@
 
 .contact-submit-btn:hover {
     color: white;
+    scale: 1.02;
 }
 
 @media only screen and (max-width: 500px) {

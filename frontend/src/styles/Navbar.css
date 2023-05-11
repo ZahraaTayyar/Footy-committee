@@ -54,7 +54,7 @@ nav {
 }
 
 .nav-list-item:hover {
-    scale: 1.05;
+    scale: 1.02;
     border-left: solid #ac261d 2px;
     border-right: solid #ac261d 2px;
 }

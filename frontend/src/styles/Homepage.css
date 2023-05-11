@@ -94,7 +94,7 @@ h2 span:nth-child(3) {
   border-right: #ac261d solid 2px;
   border-left: #ac261d solid 2px;
   background-color: #17112d;
-  scale: 1.05;
+  scale: 1.02;
 }
 
 @media only screen and (max-width: 900px) {
@@ -136,6 +136,6 @@ h2 span:nth-child(3) {
   }
 
   .home-text button {
-    scale: 1.3;
+    scale: 1.1;
   }
 }
