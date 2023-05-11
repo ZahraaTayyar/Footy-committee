@@ -5,9 +5,9 @@ function FormJoin() {
   return (
     <div className="join-form">
       <div className="join-left">
-        <h1>Volunteer with us</h1>
+        <h1>Be part of our team and play with us</h1>
         <p>
-          Do you want to join our community as a volunteer? We are looking for
+          Do you want to join our community as a player? We are looking for
           people with ambition, creativity and commitment to help deliver our
           community. Please fill out the form below
         </p>
