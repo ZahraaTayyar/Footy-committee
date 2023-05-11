@@ -39,6 +39,7 @@
 
 .bottom-half {
     display: flex;
+    height: 55vh;
 }
 
 .address {
@@ -99,6 +100,7 @@ hr {
     .bottom-half {
         display: flex;
         flex-direction: column;
+        height: 100%;
     }
     .contact-form-container {
         width: 100%;
