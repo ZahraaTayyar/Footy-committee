@@ -1,7 +1,7 @@
 .volunteers {
     display: flex;
     width: 100%;
-    height: 95vh;
+    /* height: 95vh; */
     background-color: #120d23;
     color: white;
     flex-wrap: wrap;
