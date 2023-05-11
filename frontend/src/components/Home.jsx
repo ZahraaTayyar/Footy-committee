@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutUs from './AboutUs';
+import Gallery from './Gallery';
 import Homepage from './Homepage';
 
 function Home() {
@@ -7,6 +8,7 @@ function Home() {
     <div className='home'>
       <Homepage />
       <AboutUs />
+      <Gallery />
     </div>
   )
 }

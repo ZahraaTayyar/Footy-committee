@@ -7,7 +7,8 @@ function Homepage() {
     <div className="homepage">
       <div className="home-image">
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Football_in_Bloomington%2C_Indiana%2C_1996.jpg"
+          src={process.env.PUBLIC_URL + "/images/home.jpg"}
+          // src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Football_in_Bloomington%2C_Indiana%2C_1996.jpg"
           alt="footballers playing"
         ></img>
       </div>

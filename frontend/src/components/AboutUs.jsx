@@ -4,20 +4,24 @@ import "../styles/AboutUs.css";
 function AboutUs() {
   return (
     <section className="about-us">
-
       <div className="description">
         <h2 className="about-us-title">About Us</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptate excepturi sint voluptatem eius inventore ipsum aperiam necessitatibus similique culpa, blanditiis a cupiditate alias! Est recusandae dolores molestias minima tenetur!</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+          voluptate excepturi sint voluptatem eius inventore ipsum aperiam
+          necessitatibus similique culpa, blanditiis a cupiditate alias! Est
+          recusandae dolores molestias minima tenetur!
+        </p>
       </div>
 
       <div className="cards-container">
 
-        <div className="card" id="volunteer">
+        <div className="card" id="joincard">
           <img
             src={process.env.PUBLIC_URL + "/images/donate.png"}
             alt="footballers on a field"
           ></img>
-          <h3>Volunteer with us</h3>
+          <h3>Play with us</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ab
             dicta assumenda maiores ducimus vel asperiores. Labore deserunt
@@ -26,12 +30,12 @@ function AboutUs() {
           </p>
         </div>
 
-        <div className="card" id="donate-card">
+        <div className="card" id="volunteer">
           <img
             src={process.env.PUBLIC_URL + "/images/donate.png"}
             alt="footballers on a field"
           ></img>
-          <h3>Donate</h3>
+          <h3>Volunteer with us</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ab
             dicta assumenda maiores ducimus vel asperiores. Labore deserunt
