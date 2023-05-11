@@ -1,12 +1,14 @@
 import React from "react";
 import "../styles/ContactUs.css";
+import FormContact from "./FormContact";
 
 function ContactUs() {
   return (
     <div className="contact-us">
       <div className="hero">
         <img
-          src="https://thumbs.dreamstime.com/b/multi-generation-black-family-playing-football-garden-multi-generation-black-family-playing-football-garden-134199673.jpg" alt="family playing football"
+          src="https://thumbs.dreamstime.com/b/multi-generation-black-family-playing-football-garden-multi-generation-black-family-playing-football-garden-134199673.jpg"
+          alt="family playing football"
           className="hero-image"
         ></img>
         <div className="hero-text">
@@ -20,30 +22,24 @@ function ContactUs() {
         </div>
       </div>
 
-      <div className="address">
-        <img
-          src="https://codeyourfuture.io/wp-content/uploads/2020/07/FSC-hero.png"
-          alt="cyf"
-        ></img>
-        <div className="address-text">
-          <h4>Code Your Future</h4>
-          <hr />
-          <p>69 Wilson St</p>
-          <p>London</p>
-          <p>EC2A 2BB</p>
+      <div className="bottom-half">
+        <div className="address">
+          <img
+            src="https://codeyourfuture.io/wp-content/uploads/2020/07/FSC-hero.png"
+            alt="cyf"
+          ></img>
+          <div className="address-text">
+            <h2>Code Your Future</h2>
+            <hr />
+            <p>69 Wilson St</p>
+            <p>London</p>
+            <p>EC2A 2BB</p>
+          </div>
         </div>
-      </div>
 
-      <div className="contact-form-container">
-        <form className="contact-form">
-          <label>Name:</label>
-          <input type="text" placeholder="insert your name..."></input>
-          <label>Email:</label>
-          <input type="email" placeholder="insert your email..." />
-          <label>Message</label>
-          <textarea placeholder="Write your message here..."></textarea>
-          <button className="contact-submit-btn">Submit</button>
-        </form>
+        <div className="contact-form-container">
+          <FormContact />
+        </div>
       </div>
     </div>
   );

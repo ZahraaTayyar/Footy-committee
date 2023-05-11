@@ -1,13 +1,10 @@
 .contact-us {
     color: white;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr; 
-    grid-template-areas: 
-    "h h h h"
-    "a a f f";
-    height: 95vh;
+    height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero {
@@ -18,7 +15,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* height: 100%; */
+    height: 50%;
     gap: 20px;
 }
 
@@ -30,21 +27,29 @@
 }
 
 .hero-text {
+    display: flex;
+    flex-direction: column;
     position: absolute;
+    gap: 20px;
 }
 
 .hero p {
     max-width: 1000px;
 }
 
+.bottom-half {
+    display: flex;
+    height: 50%;
+}
+
 .address {
-    grid-area: a;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #120d23;
     height: 55%;
+    width: 50%;
 }
 
 .address img {
@@ -61,10 +66,13 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    font-size: 20px;
     margin: auto;
     gap: 10px;
     z-index: 1;
+}
+
+.address-text p {
+    font-size: 20px;
 }
 
 hr {
@@ -73,39 +81,16 @@ hr {
 }
 
 .contact-form-container {
-    grid-area: f;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: white;
-    color: black;
-    width: 100%;
+    width: 50%;
     z-index: 1;
     padding: 50px;
     height: 55%;
-}
-
-.contact-form {
-    /* border: solid yellow 2px; */
-    width: 90%;
-    gap: 5px;
-}
-
-form input, textarea {
-    border: rgb(197, 194, 194) solid 1px;
-    border-radius: 10px;
-}
-
-.contact-submit-btn {
-    background-color: white;
-    color: #120d23;
-    padding: 10px;
-    width: 150px;
-}
-
-.contact-submit-btn:hover {
-    color: white;
+    color: black;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -113,9 +98,35 @@ form input, textarea {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        /* width: 100vw; */
+    }
+    .bottom-half {
+        display: flex;
+        flex-direction: column;
     }
     .contact-form-container {
         height: 100%;
+        width: 100%;
+    }
+    .address{
+        width: 100%;
+    }
+    .hero {
+    flex-direction: column;
+    z-index: 1;
+    }
+
+    .hero-text {
+    padding: 50px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    .address p {
+        font-size: 16px;
+    }
+    .contact-form label {
+        font-size: 14px;
     }
 }

@@ -1,0 +1,33 @@
+.contact-form {
+    /* border: solid yellow 2px; */
+    width: 90%;
+    gap: 20px;
+    height: 100%;
+}
+
+.contact-form input, textarea {
+    border: rgb(197, 194, 194) solid 1px;
+    border-radius: 10px;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-submit-btn {
+    background-color: white;
+    color: #120d23;
+    padding: 10px;
+    width: 150px;
+    box-shadow: none;
+}
+
+.contact-submit-btn:hover {
+    color: white;
+}
+
+@media only screen and (max-width: 500px) {
+    .contact-form label {
+        font-size: 14px;
+    }
+}
