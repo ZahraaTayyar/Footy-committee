@@ -4,6 +4,7 @@
     padding: 10px;
     height: 275px;
     width: 225px;
+    box-shadow: 2px 2px 15px black;
 }
 
 .player-card img {

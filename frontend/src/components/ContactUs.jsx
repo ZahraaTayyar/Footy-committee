@@ -29,7 +29,7 @@ function ContactUs() {
             alt="cyf"
           ></img>
           <div className="address-text">
-            <h2>Code Your Future</h2>
+            <h2>Footy Committee</h2>
             <hr />
             <p>69 Wilson St</p>
             <p>London</p>

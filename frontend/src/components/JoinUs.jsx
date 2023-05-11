@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from 'react';
 import "../styles/JoinUs.css"
 import PlayerCard from './PlayerCard';
@@ -12,7 +13,10 @@ function JoinUs() {
           filling in the form. We will then get in contact and let you know if
           we have spaces for the week or not
         </p>
-        <button>JOIN</button>
+        <Link to="/joinform">
+          <button>JOIN</button>
+        </Link>
+
         <p>Next game is on Friday 10th April!</p>
       </div>
       <div className="player-cards-container">
