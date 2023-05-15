@@ -4,9 +4,10 @@
 <img align="center" src="https://github.com/ZahraaTayyar/Footy-committee/assets/113244988/31b04faf-845e-48d6-9537-b3a42da63afe" width="200" />
 </div>
 
-<br/>
-
+## Inspiration
 Inspired by [this](https://github.com/ZahraaTayyar/Community-Football-Website) group project I did at CYF. Since the group project, I have worked hard to improve my skills, so I decided to go back and redo the whole design on my own.
+
+## New design
 
 <div align="center">
 <img align="center" src="https://github.com/ZahraaTayyar/Footy-committee/assets/113244988/f7babd92-6e13-4bef-820f-9157e4e7d9bc" width="800" />
@@ -15,7 +16,8 @@ Inspired by [this](https://github.com/ZahraaTayyar/Community-Football-Website) g
 <br/>
 </br>
 
-I've made sure the website is fully responsive too:
+## Responsiveness
+Using media queries, I've made sure the website is fully responsive too:
 
 <br/>
 
