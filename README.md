@@ -7,13 +7,25 @@
 ## Inspiration
 Inspired by [this](https://github.com/ZahraaTayyar/Community-Football-Website) group project I did at CYF. Since the group project, I have worked hard to improve my skills, so I decided to go back and redo the whole design on my own.
 
+## Technologies
+
+- Figma
+- React
+- HTML/ CSS
+
 ## New design
+<p>Here is the final desktop landing page:</p>
+<div align="center">
+  <img align="center" src="https://github.com/ZahraaTayyar/Footy-committee/assets/113244988/f7babd92-6e13-4bef-820f-9157e4e7d9bc" width="800" />
+</div>
+<br/>
+<p>I used Figma to make the initial design decisions (colour theme, layout, landing page design, name & logo), and then with CSS I perfected and improved on those design choices.</p>
+<p>Here is the initial Figma design:
 
 <div align="center">
-<img align="center" src="https://github.com/ZahraaTayyar/Footy-committee/assets/113244988/f7babd92-6e13-4bef-820f-9157e4e7d9bc" width="800" />
+  <img align="center" src="https://github.com/ZahraaTayyar/Footy-committee/assets/113244988/5f549e61-14b2-4de7-8c54-6fb825d6a313" width="400" />
 </div>
 
-<br/>
 </br>
 
 ## Responsiveness
